@@ -10,7 +10,8 @@
     "stylelint-scss": "^3.21.0"
   },
   "scripts": {
-    "test": "npx stylelint '**/*.{css,scss}' && npx eslint . && echo everything-looks-good"
+    "test": "npx stylelint '**/*.{css,scss}' && npx eslint . && echo everything-looks-good",
+    "fix" : "npx stylelint '**/*.{css,scss}' --fix && npx eslint . --fix && echo everything-looks-fixed"
   },
   "name": "awesome_books",
   "description": "<a id=\"readme-top\"></a>",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/DavidEspinoG/Awesome_books/issues"
   },
-  "homepage": "https://github.com/DavidEspinoG/Awesome_books#readme"
+  "homepage": "https://github.com/DavidEspinoG/Awesome_books#readme",
+  "dependencies": {
+    "luxon": "^3.2.1"
+  }
 }

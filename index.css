@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+button {
+  box-shadow: 3px 2px 0;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 30px;
+  padding: 5px;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.listItem {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.listItem:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.047);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+input {
+  border: 2px solid black;
+  outline: none;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border: 2px solid gray;
+}
+
+header {
+  display: flex;
+  width: 95%;
+  border: 2px solid black;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 10px;
+  border-right: 2px solid black;
+  padding-right: 20px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+header ul li:hover {
+  transform: scale(0.9);
+}
+
+header ul li:nth-child(3) {
+  border-right: 2px solid rgba(0, 0, 0, 0);
+}
+
+.listContainer {
+  text-align: center;
+  max-width: 500px;
+}
+
+.listContainer h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.list {
+  border-radius: 5px;
+  max-height: 60vh;
+}
+
+footer {
+  border: 2px solid black;
+  border-radius: 5px;
+  bottom: 20px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.display-none {
+  display: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.formContainer {
+  width: 90%;
+  margin: 0 auto;
+}
