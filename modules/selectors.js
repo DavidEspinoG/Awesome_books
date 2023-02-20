@@ -2,6 +2,7 @@ const form = document.getElementById('form');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 const list = document.getElementById('list');
+const time = document.getElementById('time');
 
 // SPA
 
@@ -24,4 +25,5 @@ export {
   listLink,
   addNewLink,
   contactLink,
+  time,
 };

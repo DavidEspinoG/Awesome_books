@@ -12,6 +12,9 @@ import {
 } from './modules/selectors.js';
 import addAllBooks from './modules/addAllBooks.js';
 import colection from './modules/Books.js';
+import updateTime from './modules/udpateTime.js';
+
+updateTime();
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();

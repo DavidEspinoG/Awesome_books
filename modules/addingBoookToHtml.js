@@ -27,6 +27,6 @@ const addingBookToHtml = (Title, Author, index) => {
   div.appendChild(p);
   div.appendChild(button);
   list.appendChild(div);
-}
+};
 
 export default addingBookToHtml;

@@ -15,11 +15,22 @@ html {
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  padding-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
 }
 
 h1 {
@@ -56,7 +67,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: max-content;
 }
 
 form h2 {
@@ -74,10 +84,6 @@ input {
 
 input:focus {
   border: 2px solid gray;
-}
-
-.submitBtn {
-  align-self: flex-end;
 }
 
 header {
@@ -118,6 +124,7 @@ header ul li:nth-child(3) {
 
 .listContainer {
   text-align: center;
+  max-width: 500px;
 }
 
 .listContainer h2 {
@@ -129,17 +136,14 @@ header ul li:nth-child(3) {
 .list {
   border-radius: 5px;
   max-height: 60vh;
-  overflow: auto;
-  max-width: 700px;
-  width: 90vw;
 }
 
 footer {
-  width: 95%;
   border: 2px solid black;
-  padding: 5px 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  bottom: 20px;
+  width: 94%;
+  margin: 0 auto;
 }
 
 .display-none {
@@ -161,7 +165,11 @@ footer {
 }
 
 .contact ul {
-  text-align: left;
-  margin-left: 60px;
+  list-style: none;
   margin-top: 10px;
+}
+
+.formContainer {
+  width: 90%;
+  margin: 0 auto;
 }

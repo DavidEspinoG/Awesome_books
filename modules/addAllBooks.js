@@ -8,6 +8,6 @@ const addAllBooks = () => {
   colection.books.forEach((book, index) => {
     addingBookToHtml(book.title, book.author, index);
   });
-}
+};
 
 export default addAllBooks;
