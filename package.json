@@ -1,15 +1,30 @@
 {
-    "devDependencies": {
-      "babel-eslint": "^10.1.0",
-      "eslint": "^7.32.0",
-      "eslint-config-airbnb-base": "^14.2.1",
-      "eslint-plugin-import": "^2.27.5",
-      "stylelint": "^13.13.1",
-      "stylelint-config-standard": "^21.0.0",
-      "stylelint-csstree-validator": "^1.9.0",
-      "stylelint-scss": "^3.21.0"
-    },
-    "scripts": {
-      "test" : "npx stylelint '**/*.{css,scss}' && npx eslint . && echo everything-looks-good"
-    }
-  }
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "npx stylelint '**/*.{css,scss}' && npx eslint . && echo everything-looks-good"
+  },
+  "name": "awesome_books",
+  "description": "<a id=\"readme-top\"></a>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidEspinoG/Awesome_books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidEspinoG/Awesome_books/issues"
+  },
+  "homepage": "https://github.com/DavidEspinoG/Awesome_books#readme"
+}
