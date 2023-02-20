@@ -1,6 +1,4 @@
-/* eslint-disable import/no-cycle */
 import colection from './Books.js';
-import addAllBooks from './addAllBooks.js';
 import { list } from './selectors.js';
 
 const addingBookToHtml = (Title, Author, index) => {
@@ -18,7 +16,10 @@ const addingBookToHtml = (Title, Author, index) => {
     const parent = e.target.parentElement;
     const index = parent.id;
     colection.remove(index);
-    addAllBooks();
+    list.innerHTML = '';
+    colection.books.forEach((book, index) => {
+      addingBookToHtml(book.title, book.author, index);
+    });
     localStorage.books = JSON.stringify(colection.books);
     if (colection.books.length === 0) {
       list.style.border = 'none';
