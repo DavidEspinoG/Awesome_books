@@ -3,7 +3,7 @@ import colection from './Books.js';
 import addAllBooks from './addAllBooks.js';
 import { list } from './selectors.js';
 
-function addingBookToHtml(Title, Author, index) {
+const addingBookToHtml = (Title, Author, index) => {
   const div = document.createElement('div');
   div.className = 'listItem';
   div.setAttribute('id', index);

@@ -1,5 +1,7 @@
 <a id="readme-top"></a>
 
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -23,34 +25,34 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a id="about-project"></a>
+# 📖 [Awesome Book Project] <a id="about-project"></a>
 
-> Project created for showing my expirience as a software developer
+> Discover an amazing collection of books on our website! Easily store your favorite reads with author name and enjoy seamless access to a vast library of literature. Get started now!
 
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
 
-> HTML & CSS
+> HTML , CSS and Javascript
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML & CSS</a></li>
+    <li><a>HTML , CSS and Javascript</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="#">N/A</a></li>
+    <li><a>Github Pages</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="#">N/A</a></li>
+    <li><a>No Database was used in this project</a></li>
   </ul>
 </details>
 
@@ -58,8 +60,9 @@
 
 ### Key Features <a id="key-features"></a>
 
-- Show's the best of my work as a software developer
-- Responsive web
+> [Correct set up of GitHub Flows.]
+> [The creation and addition of HTML, CSS and JavaScript files.]
+> [Desktop-first styling]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,55 +70,40 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-> Add a link to your deployed project.
-
-
-- [Live Demo Link](https://davidespinog.github.io/portfolio/)
-
+> <a href="">Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a id="getting-started"></a>
-
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-> git clone https://github.com/DavidEspinoG/portfolio.git
-> (you can open it via live server in VS)
+You don't need any previous installation in order to run this project
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-> git clone https://github.com/DavidEspinoG/portfolio.git
+git clone https://github.com/DavidEspinoG/Awesome_books.git
 
 ### Install
 
-Install this project with:
-
-N/A
+This is not an install able project
 
 ### Usage
 
-To run the project just open it in VS and run liveServer
-
+There's no command required to run the project
 
 ### Run tests
 
-To run tests, run the following command:
+Linter Tests added ( npm run test )
 
-N/A
 ### Deployment
 
-You can deploy this project using:
-
-N/A
+This is not a deployable project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,13 +111,23 @@ N/A
 
 ## 👥 Authors <a id="authors"></a>
 
+👤 Shayan
 
-👤 **David Espino**
+- GitHub: [@githubhandle](https://github.com/shayan1234554321)
+- Twitter: [@twitterhandle](https://twitter.com/shayan123455432)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shayan-khan20/)
+
+👤 Adil
+
+- GitHub: [@githubhandle](https://github.com/nxn404-n)
+- Twitter: [@twitterhandle](https://twitter.com/nxn_404)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nafeurrahmanadil/)
+
+👤 David Espino
 
 - GitHub: [@DavidEspinoG](https://github.com/DavidEspinoG)
 - Twitter: [@DavidEspinoG](https://twitter.com/DavidEspinoG)
 - LinkedIn: [davidespinog](https://linkedin.com/in/davidespinog)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,9 +135,7 @@ N/A
 
 ## 🔭 Future Features <a id="future-features"></a>
 
-
-- More projects are going to be added **[new_feature_1]**
-- A contact form
+> Would be adding contact page and css styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +143,7 @@ N/A
 
 ## 🤝 Contributing <a id="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+All issues are welcomed !! You can contribute by creating an issue.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,9 +151,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a id="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project please star this repo.
+If you like this project please leave a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,9 +159,7 @@ If you like this project please star this repo.
 
 ## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank microverse inc. for helping me in my professional carreer. 
+ Thanks to Microverse for project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,6 +167,6 @@ I would like to thank microverse inc. for helping me in my professional carreer.
 
 ## 📝 License <a id="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
